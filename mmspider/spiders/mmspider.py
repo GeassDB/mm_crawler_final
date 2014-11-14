@@ -10,13 +10,13 @@ class MmspiderSpider(CrawlSpider):
     name = 'mmspider'
     allowed_domains = ['22mm.cc']
     start_urls = ['http://www.22mm.cc/']
-    rules = (
+    rules = [
         Rule(
             LinkExtractor(
                 allow=('\w+(\-\d+)?\.html', ), ),
             callback='image_links',
             follow=True)
-            )
+            ]
 
     def image_links(self, response):
         imageItem = ImageItem()

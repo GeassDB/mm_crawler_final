@@ -2,7 +2,7 @@ mm_crawler_final
 ================
 
 
- Usage: mm_crawler.py [-h Help] [-n Number] [-o Location] [-s Start]
+ Usage: mm_crawler.py [-h Help] [-n Number] [-o Location] [-l Limit]
         -h, --Help      Print help
         -n, --Number    Tread limit (default  10)
         -o, --Location  pictures save location(default ./pics)

@@ -7,7 +7,8 @@ mm_crawler_final
         -n, --Number    Tread limit (default is 10)
         -o, --Location  pictures save location(default is ./pics)
         -s, --Start     start spider
-------------------------------------------------
+        
+        
  实现了多线程爬虫 
  ---------------------------------------------
  可以用-n 参数指定线程数    默认10

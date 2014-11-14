@@ -19,7 +19,9 @@ IMAGE_MIN_WIDTH = 120
 DOWNLOAD_DELAY = 2
 CONCURRENT_REQUESTS = 10
 USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
-
+#DOWNLOADER_MIDDLEWARES = {
+#    'scrapy.contrib.downloadermiddleware.httpproxy.HttpProxyMiddleware': 110,
+#    'pythontab.middlewares.ProxyMiddleware': 100,}
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'mmspider (+http://www.yourdomain.com)'
